@@ -11,7 +11,20 @@ A Multimedia Steganography Tool for encoding hidden messages within images, audi
     ```sh
     cd GetStego
     ```
-3. Install the required dependencies:
+3. Create a virtual environment:
+    ```sh
+    python -m venv venv
+    ```
+4. Activate the virtual environment:
+    - On Windows:
+        ```sh
+        venv\Scripts\activate
+        ```
+    - On macOS and Linux:
+        ```sh
+        source venv/bin/activate
+        ```
+5. Install the required dependencies:
     ```sh
     pip install -r requirements.txt
     ```
